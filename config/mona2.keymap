@@ -34,17 +34,17 @@
             key-positions = <11 12>;
         };
 
-        MB1 {
+        MB1_COMBO {
             bindings = <&mkp MB1>;
             key-positions = <17 18>;
         };
 
-        MB2 {
+        MB2_COMBO {
             bindings = <&mkp MB2>;
             key-positions = <18 19>;
         };
 
-        MB3 {
+        MB3_COMBO {
             bindings = <&mkp MB3>;
             key-positions = <17 19>;
         };
