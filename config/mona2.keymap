@@ -25,7 +25,7 @@
         compatible = "zmk,combos";
 
         layer4_ESC {
-            bindings = <&lt 4 ESC>;
+            bindings = <&lt 3 ESC>;
             key-positions = <39 38>;
         };
 
@@ -101,16 +101,16 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R      &kp T                                                              &kp Y        &kp U  &lt 6 K    &kp O    &kp P
+&kp Q             &kp W         &kp E         &kp R      &kp T                                                              &kp Y        &kp U  &lt 5 K    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F      &kp G                                  &kp F13                     &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B        &kp F14                   &kp F15                     &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &lt 2 LANG2  &lt_to_layer_0 3 LANG1    &lt_to_layer_0 3 BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &lt 0 LANG2  &lt_to_layer_0 2 LANG1    &lt_to_layer_0 2 BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
         };
 
-        layer_1_NUM_FUNC {
+        layer_1 {
             bindings = <
 &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                    &trans  &kp F7  &kp F8  &kp F9  &kp F10
 &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans            &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
@@ -119,17 +119,6 @@
             >;
 
             sensor-bindings = <&scroll_right_left>;
-        };
-
-        layer_2 {
-            bindings = <
-&trans     &trans     &trans             &kp DOLLAR  &kp PERCENT                      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp MINUS  &kp UNDERSCORE
-&kp GRAVE  &kp TILDE  &kp DOUBLE_QUOTES  &kp SQT     &trans                  &trans   &mkp MB3   &mkp MB1       &mkp MB2      &kp EQUAL  &kp PLUS
-&kp F1     &kp F2     &kp F3             &kp F4      &kp F5       &kp F11    &kp F12  &kp F6     &kp F7         &kp F8        &kp F9     &kp F10
-&trans     &trans     &trans             &trans      &trans       &trans     &trans   &trans                                             &trans
-            >;
-
-            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_3 {
