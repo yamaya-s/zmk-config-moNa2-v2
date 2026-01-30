@@ -33,31 +33,6 @@
             bindings = <&kp TAB>;
             key-positions = <11 12>;
         };
-
-        MB1_COMBO {
-            bindings = <&mkp MB1>;
-            key-positions = <17 18>;
-        };
-
-        MB2_COMBO {
-            bindings = <&mkp MB2>;
-            key-positions = <18 19>;
-        };
-
-        MB3_COMBO {
-            bindings = <&mkp MB3>;
-            key-positions = <17 19>;
-        };
-
-        MB4_COMBO {
-            bindings = <&mkp MB4>;
-            key-positions = <16 17>;
-        };
-
-        MB5_COMBO {
-            bindings = <&mkp MB5>;
-            key-positions = <20 19>;
-        };
     };
 
     macros {
